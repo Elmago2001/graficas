@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x= np.linspace(-1, 5, 100)
+fx=2*x**2 -8*x -11
+plt.plot(x, fx, linewidth=3, color='r', marker='o')
+plt.title('$F(x)= 2x^2 -8x -11$')
+plt.ylabel('Eje Y')
+plt.xlabel('Eje X')
+plt.show()
